@@ -1,0 +1,161 @@
+@import url(../fonts/Poppins-Light.ttf);
+*{
+    max-width: 1775px;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.86);
+    font-family:'Poppins', sans-serif;
+}
+
+.header {
+background-color: rgb(97, 115, 125);
+height: 70px;
+text-align: center;
+border-style:solid;color: #ababab;
+}
+
+.logo {
+    float: right;   
+    padding: auto; 
+}
+
+.logo2 {
+    float: right;
+    padding: auto;
+}
+
+.menu {
+  border-style: solid; color: #ababab;
+  padding-bottom: 10px;
+}
+.menu ul {
+  text-align:center;color: #ababab;
+  font-family:'Poppins', sans-serif;
+  font-style:initial;
+  /*preguntar como se quita el morado del link*/
+}
+
+.banner {
+    background-image: url(assets/img/vaporimg.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.banner h1 {
+    text-align: right;
+    text-decoration: solid;
+    color: rgb(46, 46, 46);font-style:oblique;
+    font-family:'Poppins', sans-serif;
+    font-size: 80px;
+    padding: 100px 30px;
+    color: rgba(0,0,0,0.6);
+text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+}
+   
+.tabla-Categorias {
+    border-style: solid;color: #dedddde4;
+    text-align: center;
+  }
+
+.boton-features {
+  text-decoration:none;
+  font-weight: 600;
+  font-size: 20px;
+  color:#333333;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:rgb(97, 115, 125);
+  border-color: #ababab;
+  border-width: 3px;
+  border-style: solid;
+  border-radius:35px;
+  width:auto;
+  margin:auto;
+  position: relative;
+  margin-left: 525px;
+}
+/*preguntar como centrar los botones*/
+.to-walk {
+  text-decoration:none;
+  font-weight: 600;
+  font-size: 20px;
+  color:#333333;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:rgb(97, 115, 125);
+  border-color: #ababab;
+  border-width: 3px;
+  border-style: solid;
+  border-radius:35px;
+  position: relative;
+  margin-left: 10px;
+  
+
+}
+.boton-features:hover {
+    opacity: 0.3;
+  }
+  .to-walk:hover {
+    opacity: 0.3;
+  }
+
+  .reasons{
+    background-color:  rgb(97, 115, 125);
+    color: rgb(46, 46, 46);
+    padding: 20px 100px 70px 100px;
+    border-style: groove;
+    padding-top: 10px;
+  }
+
+  .reasons h2{
+    padding-top: 10px;
+    text-align: justify;
+    font-family:'Poppins', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 30px rgba(255, 255, 255, 0.399);
+  }
+
+  .material{
+    background-color:  rgb(97, 115, 125);
+    color: rgb(46, 46, 46);
+    padding: 20px 100px 70px 100px;
+    border-style: groove;
+    padding-top: 10px;
+  }
+  .material h2{
+    text-align:left;
+    text-decoration: solid;
+    color: rgb(61, 61, 61);font-style:oblique;
+    font-family:'Poppins', sans-serif;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 0px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 30px rgba(255, 255, 255, 0.491);
+  }
+
+  .material img {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: none;
+  }
+
+  .material table {
+    width: auto;
+    margin: 20;
+    background-repeat: no-repeat;
+   border: 5px solid #ababab;
+   padding-top: none;
+   background-color: rgba(52, 52, 52, 0.304);
+  }
+
+  h3{
+    color:rgb(0, 0, 0);
+  }
